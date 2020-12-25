@@ -1,0 +1,19 @@
+applications:
+- name: flask
+  instances: 1
+  memory: 128M
+
+  #最新のBuildpacksを使用
+  buildpack: 'https://github.com/cloudfoundry/python-buildpack.git'
+
+  #manifestと階層を分けたい時に使用
+  path: app_root
+
+  # デプイ時に自動的に公開されない設定
+  #no-hostname: true
+  #no-route: true
+env:
+  ORG: sample-30
+  META_APP_NAME: flask
+  TZ: Asia/Tokyo
+  LANG: ja_JP.UTF-8
