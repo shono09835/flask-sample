@@ -1,7 +1,7 @@
 # 概要
-本リポジトリはCFにおけるPython開発を簡単にまとめたものです。
-PythonではApache,PHPの設定が不要なことから.bp-configを使用しません。
-そのためcomposer相当の記述を行うだけになります。
+本リポジトリはCFにおけるPython開発を簡単にまとめたものです。  
+PythonではApache,PHPの設定が不要なことから.bp-configを使用しません。  
+そのためcomposer相当の記述を行うだけになります。  
 詳細は[公式](https://docs.cloudfoundry.org/buildpacks/python/index.html)を参照
 
 
